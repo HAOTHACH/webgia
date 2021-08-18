@@ -67,6 +67,7 @@ morph.onmouseleave = function() {
   arrTl.to(".arro",{rotation:0,duration:0.5})
         
 }
-var rule = CSSRulePlugin.getRule(".waphead1 li::after")
-gsap.to(rule, {duration: 5, cssRule: {background:"white"}});
 
+    
+  var rule = CSSRulePlugin.getRule(".waphead1 li::after")
+  gsap.to(rule, {duration: 5, cssRule: {background:"white"}});

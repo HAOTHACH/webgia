@@ -337,8 +337,8 @@ body {
 .waphead2 li {
   position: relative;
 }
-.waphead1 li::after,
-.waphead2 li::after {
+.waphead1 li.active::after,
+.waphead2 li.active::after {
   content: "";
   position: absolute;
   width: 4px;
